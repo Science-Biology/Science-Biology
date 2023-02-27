@@ -1,361 +1,291 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
-    <title>Science-Biology</title>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
-    <!-- Google Fonts Roboto -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
-    <!-- MDB -->
-    <link rel="stylesheet" href="css/mdb.min.css" />
-    <!-- Custom styles -->
-    <link rel="stylesheet" href="style-man-clasa-6.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<meta charset="utf-8">
+
+	<!--====== Title ======-->
+	<title>Clasa-6</title>
+
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--====== Favicon Icon ======-->
+	<link rel="shortcut icon" href="../../../assets/images/logo/png-transparent-biology-biologist-chemistry-biologiestudium-design-web-design-text-logo.png" type="image/png">
+
+	<!--====== Animate CSS ======-->
+	<link rel="stylesheet" href="../../../assets/css/animate.css">
+
+	<!--====== Tiny slider CSS ======-->
+	<link rel="stylesheet" href="../../../assets/css/tiny-slider.css">
+
+	<!--====== glightbox CSS ======-->
+	<link rel="stylesheet" href="../../../assets/css/glightbox.min.css">
+
+	<!--====== Line Icons CSS ======-->
+	<link rel="stylesheet" href="../../../assets/css/LineIcons.2.0.css">
+	
+	<!--====== Selectr CSS ======-->
+	<link rel="stylesheet" href="../../../assets/css/selectr.css">
+
+	<!--====== Nouislider CSS ======-->
+	<link rel="stylesheet" href="../../../assets/css/nouislider.css">
+
+	<!--====== Bootstrap CSS ======-->
+	<link rel="stylesheet" href="../../../assets/css/bootstrap-5.0.5-alpha.min.css">
+
+	<!--====== Style CSS ======-->
+	<link rel="stylesheet" href="../../../assets/css/style.css">
+    
+
 </head>
+
 <body>
-<!--Main Navigation-->
-<header>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark " style="z-index: 2000;">
-        <div class="container-fluid">
-            <!-- Navbar brand -->
-            <a class="navbar-brand nav-link" href="../../../index.html">
-                <strong>Science</strong>
-            </a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="../../../index.html">Home</a>
-                    </li>
+	<!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Domenii
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+	<!--====== PRELOADER PART START ======-->
 
+	<div class="preloader">
+		<div class="loader">
+			<div class="ytp-spinner">
+				<div class="ytp-spinner-container">
+					<div class="ytp-spinner-rotator">
+						<div class="ytp-spinner-left">
+							<div class="ytp-spinner-circle"></div>
+						</div>
+						<div class="ytp-spinner-right">
+							<div class="ytp-spinner-circle"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--====== PRELOADER PART ENDS ======-->
+
+	<!--====== HEADER PART START ======-->
+
+	<header class="header_area">
+		<div id="header_navbar" class="header_navbar">
+			<div class="container position-relative">
+				<div class="row align-items-center">
+					<div class="col-xl-12">
+						<nav class="navbar navbar-expand-lg">
+							<!--
+							<a class="navbar-brand" href="index.html">
+								<img id="logo" src="" alt="Logo">
+							</a>
+						-->
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+								aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="toggler-icon"></span>
+								<span class="toggler-icon"></span>
+								<span class="toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+								<ul id="nav" class="navbar-nav">
+									<li class="nav-item">
+										<a class="page-scroll active" href="../../../index.html">Home</a>
+									</li>
+									<li class="nav-item">
+										<a class="page-scroll" data-toggle="collapse" data-target="#sub-nav1" aria-controls="sub-nav1"
+											aria-expanded="false" aria-label="Toggle navigation" href="javascript:void(0)">Domenii
+											<div class="sub-nav-toggler">
+												<span></span>
+											</div>
+										</a>
+										<ul class="sub-menu collapse" id="sub-nav1">
+											<li><a href="../../domenii/botanica/botanica.html">Botanica</a></li>
+											<li><a href="../../domenii/zoologie/zoologe.html">Zoologie</a></li>
+											<li><a href="../../domenii/citologia/citologia.html">Citologie</a></li>
+											<li><a href="../../domenii/genetica/genetica.html">Genetica</a></li>
+											<li><a href="../../domenii/ecologie/ecologie.html">Ecologie</a></li>
+											<li><a href="../../domenii/anatomie-medicina/anatomie-medicina.html">Anatomie/Medicina</a></li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a class="page-scroll" data-toggle="collapse" data-target="#sub-nav" aria-controls="sub-nav"
+											aria-expanded="false" aria-label="Toggle navigation" href="javascript:void(0)">Manuale
+											<div class="sub-nav-toggler">
+												<span></span>
+											</div>
+										</a>
+										<ul class="sub-menu collapse" id="sub-nav">
+											<li><a href="../../manuale/clasa 5/man-clasa-5.html">Clasa 5</a></li>
+											<li><a href="../../manuale/clasa 6/man-clasa-6.html">Clasa 6</a></li>
+											<li><a href="../../manuale/clasa 7/man-clasa-7.html">Clasa 7</a></li>
+											<li><a href="../../manuale/clasa 8/man-clasa-8.html">Clasa 8</a></li>
+											<li><a href="../../manuale/clasa 9/man-clasa-9.html">Clasa 9</a></li>
+											<li><a href="../../manuale/clasa 10/man-clasa-10.html">Clasa 10</a></li>
+											<li><a href="../../manuale/clasa 11/man-clasa-11.html">Clasa 11</a></li>
+											<li><a href="../../manuale/clasa 12/man-clasa-12.html">Clasa 12</a></li>
+
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a class="page-scroll" data-toggle="collapse" data-target="#sub-nav1" aria-controls="sub-nav1"
+											aria-expanded="false" aria-label="Toggle navigation" href="javascript:void(0)">Enciclopedii
+											<div class="sub-nav-toggler">
+												<span></span>
+											</div>
+										</a>
+										<ul class="sub-menu collapse" id="sub-nav1">
+											<ul class="sub-menu collapse" id="sub-nav1">
+												<li><a href="../../Enciclopedii/Atlase/atlase.html">Atlase</a></li>
+												<li><a href="../../Enciclopedii/Familiei/familiei.html">Familiei</a></li>
+												<li><a href="../../Enciclopedii/Enc vol1-4/encvol 1-4.html">EncUnivBrit-vol_01-04</a></li>
+												<li><a href="../../Enciclopedii/Enc vol5-8/enc vol5-8.html">EncUnivBrit-vol_5-8</a></li>
+												<li><a href="../../Enciclopedii/ENc vol9-12/enc vol9-12.html">EncUnivBrit-vol_9-12</a></li>
+											</ul>
+										</ul>
+									</li>
+								</ul>
+							</div>
+							
+						</nav> <!-- navbar -->
+					</div>
+				</div> <!-- row -->
+			</div> <!-- container -->
+		</div> <!-- header navbar -->
+	</header>
+
+	<!--====== HEADER PART ENDS ======-->
+
+	<!--====== BANNER PART START ======-->
+	<section class="banner-area bg_cover">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="banner-content">
+						<h1 class="text-white">Manuale clasa-6</h1>
+						<nav aria-label="breadcrumb">
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="../../../index.html">Home</a></li>
+								<li class="breadcrumb-item active" aria-current="page">Manuale clasa-6</li>
+							</ol>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    
+	<!--====== BANNER PART END ======-->
+
+	<!--====== 404 PRODUCT PART START ======-->
+	<section class="page-404-wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="text-center content-404">
+                        
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 mb-4">
+                                <div class="card">
+                                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                        <img src="https://lh3.googleusercontent.com/fife/AMPSemdR-LiN_2S4BjO3XaNMaXbqJiysT18x9i2YDeBfPYVvZX2gRBre-AJuosGBsjX0zqzfjs_5RwASNdYYqgQr4wjWfIPDrayFk8Ini-hhi0BQJAIvzA0RkitHQxhobs1CC6e_FAtECI3aN2jmsL_YEBUL4ta6rGPBW4i5r1jEU5Qt3q1BxOcCYX9TTtnmjTe_yH3oje6qT5WNh2EOHzHVGmnQOA_tUh-CXVD-Z8UZLJtCkFjaHiW1Iid9x5oEv8VigkyOG9E5vioIVFFxgs7VCbq06JcgifjUHfES3VN_P3yOa_TyGxqS2JUU82pxHner3nxIBmIkcrHqeVtp6dhqRKt_VOxvcmsmLkdeGIB_UPA7fPdngKp6H9MZiXs8X8uzS7vnKhK_tAwqX_t2wshj7iSopIgEOR3Cmecrz6YaH8qMCBbQe_feb6fYK_ELtmtd9Q3J8OUq2NqfE5KkwUKXLb4j9JzkwZK-E_WqslgCufwFMYtWSacAKYOs1_wC5MEB0aLC_vT6lVMGFz1QOnr7XHBL8hKcn5tjLK9C8_SY7Dla5DC5LPDZNCHUG7926kKpvx13wIj0X-LuMkrGYDW7slnvGLLzHOsTTnRNXY8QgDsHvv8IqO3AXvPKzOIx7RUTXkhOrQ_ahOaxajPPEN81Kmdob32Q3pKzEG4TSMvUSJc_1LIG6XoQMgiH1InhndOsq3fTJ_mDiBTK3FzLs_f1rGlH_hBRFG5Ob3pzz-wZECyerSIdMvm9oLnVdoz19NgR7dTD6eVqqH4H4N8fm8yxADcsw1L771ii6GnI3Qo-FcF-IHGoiF4bHw8DS8AxdhU_K4NfRwp2Y3zqv51s5f5_zpod5WIPY1T-Iytb_GHyyhduD_T_jGlqAd2YghYYmiHXf_hG2BhwFn-UX08aLjSMA2SmZWCfk5wtfO2zbi-KJFqWEnvB7GvPFQxnWaJ2aPb7nl-br4EKBx0lSnnwiAPf3FP_5_0mbFYaXirVqcdKARH1Gjil3VljU9oyLCltNKvOFOth6DLYmnc5boeAAJKoFFZUKHdRxb5YAjirEQ4fBwPlzBjfx47n5J8BTB2lZ-MsVlXw4ynBFCETIPslqnXtFkiq8hPhbce3EOerW2d-4Waxcsje0tB6Yc9hUzQMQqRe7S6iCBSmgzeEapUuaDQpbELKrqSCpXlilKvUxw7-PKO-J4by7BUT1O_kCinm5RUnYJB951VH8jUXubo0KZ7-q4ER3EnEs27LMns7rrT_D-_PG4rvvZtnYDPfx-VveBbvmeyGHSuj9bjnFCTbdyw9RP2dTWyePjBZFLAsiVQAg0r0gmjpud7PocfgaC51pR6pvmpgclEFZv9csfUYBCi5eMq2ws2F4ccc8oMPoFo9_C90P4XWOW453b9SgNzaxtxvy6rZtYePvoaLjhLyyyCvP41ST0SFMq5gfwj8KK6zDck2MhtNhctJIMTJp5w7DQbhBVzebGZDGCpR2NBQaYGXiQ=w200-h190-p-k-nu" class="pdf img-fluid" />
+                                        <a href="https://drive.google.com/file/d/135MPpWBE8295V-KNFiVGAflrtH-1r3b4/view">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Organismul uman si sănătatea</h5>
+                                        <a href="https://drive.google.com/file/d/135MPpWBE8295V-KNFiVGAflrtH-1r3b4/view" class="btn btn-primary">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+            
                             
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="../../domenii/botanica/botanica.html">Botanica</a>
-                            </li>
-
-                            
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="../../domenii/zoologie/zoologe.html">Zoologie</a>
-                            </li>
-
-                            
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="../../domenii/citologia/citologia.html">Citologie</a>
-                            </li>
-
-                            
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="../../domenii/genetica/genetica.html">Genetica</a>
-                            </li>
-
-                            
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="../../domenii/ecologie/ecologie.html">Ecologie</a>
-                            </li>
-
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="../../domenii/anatomie-medicina/anatomie-medicina.html">Anatomie/Medicina</a>
-                            </li>
-
-
-                            <!-- =====================================================-->
-
-                        </ul>
-                    </li>
-
-                    <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="../../teste/teste.html">Teste</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="../../Video/video.html">Video</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Enciclopedii
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item dropdown-toggle">Arborele lumii</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="#">Animale si Plante</a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <li class="dropdown-submenu">
-                                                <a class="dropdown-item" href="../../Enciclopedii/Arborele lumii/Animale si plante/animale.html">Animale</a>
-                                                <a class="dropdown-item" href="../../Enciclopedii/Arborele lumii/Animale si plante/plante.html">Plante</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-                                    <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="#">Arta si Omul</a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <li class="dropdown-submenu">
-                                            <a class="dropdown-item" href="../../Enciclopedii/Arta si Omul/arhitectura.html">Arhitectura</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Arta si Omul/cinematografie.html">Cinematografie</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Arta si Omul/dramaturgia.html">Dramaturgia</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Arta si Omul/epoca lui chaucer.html">Epoca lui Chaucer</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Arta si Omul/Epoca lui goenthe.html">Epoca lui Goethe</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Arta si Omul/epoca regelui soare.html">Epoca Regelui Soare</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Arta si Omul/femei engleze romanciere.html">Femei Engleze Romanciere</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Arta si Omul/muzica.html">Muzica</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Arta si Omul/pictura.html">Pictura</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Arta si Omul/sculptura.html">Sculptura</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Arta si Omul/hardy,kames.html">Hardy, James si Conrad</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Arta si Omul/Dr.Johnson is lumea sa.html">Dr.Johnson si lumea sa</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-                                    <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="#">Corpul Omenesc</a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <li class="dropdown-submenu">
-                                            <a class="dropdown-item" href="../../Enciclopedii/Corpul omenesc/chimia organismului.html">Chimia organismului</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Corpul omenesc/misterul vietii.html">Misterul vietii</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Corpul omenesc/organe interne.html">Organe interne</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Corpul omenesc/Simturi1.html">Simturi</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Corpul omenesc/sisteme.html">Sisteme</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-                                    <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="#">Stiinta si Tehnologii</a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <li class="dropdown-submenu">
-                                            <a class="dropdown-item" href="../../Enciclopedii/Stiinte si tehnologii/calculatoare/calculatoarele.html">Calculatoare</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Stiinte si tehnologii/diverse.html">Diverse</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Stiinte si tehnologii/energetica.html">Energetica</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Stiinte si tehnologii/era spatiala.html">Era Spatiala</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Stiinte si tehnologii/calculatoare/materiale.html">Materiale</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Stiinte si tehnologii/mijloace de transport.html">Mijloace de transport</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Stiinte si tehnologii/motoare.html">Motoare</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Stiinte si tehnologii/stiinta.html">Optica</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Stiinte si tehnologii/stiinta.html">Stiinta</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Stiinte si tehnologii/tehnologii.html">Tehnologii</a>
-                                            <a class="dropdown-item" href="../../Enciclopedii/Stiinte si tehnologii/utilitati.html">Utilitati</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-
-                                    
-                                </ul>
-                            </li> 
-                            
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="../../Enciclopedii/Atlase/atlase.html">Atlase</a>
-                            </li>
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="../../Enciclopedii/Familiei/familiei.html">Enciclopedia Ilustrata a Famieliei</a>
-                            </li>
-                            
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="../../Enciclopedii/Enc vol1-12/enc vol1-12.html">Enciclopedia Universala Britanica VOL1-12</a>
-                            </li>
-
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="../../Enciclopedii/Enc vol1-4/encvol 1-4.html">EncUnivBrit-vol_01-04</a>
-                            </li>
-
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="../../Enciclopedii/Enc vol5-8/enc vol5-8.html">EncUnivBrit-vol_05-08</a>
-                            </li>
-
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="../../Enciclopedii/ENc vol9-12/enc vol9-12.html">EncUnivBrit-vol_09-12</a>
-                            </li>
-
-                        </ul>
-                     </li>
-                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Manuale
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="../../manuale/clasa 5/man-clasa-5.html">Clasa 5</a>
-                            </li>
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="../../manuale/clasa 6/man-clasa-6.html">Clasa 6</a>
-                            </li>
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="../../manuale/clasa 7/man-clasa-7.html">Clasa 7</a>
-                            </li>
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="../../manuale/clasa 8/man-clasa-8.html">Clasa 8</a>
-                            </li>
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="../../manuale/clasa 9/man-clasa-9.html">Clasa 9</a>
-                            </li>
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="../../manuale/clasa 10/man-clasa-10.html">Clasa 10</a>
-                            </li>
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="../../manuale/clasa 11/man-clasa-11.html">Clasa 11</a>
-                            </li>
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item" href="../../manuale/clasa 12/man-clasa-12.html">Clasa 12</a>
-                            </li>
-                        </ul>
-                     </li>
-                   
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- Navbar -->
-
-   
-</header>
-<!--Main Navigation-->
-
-<!--Main layout-->
-<main class="mt-5">
-    <div class="container">
-        <!--Section: Content-->
-        
-
-                
-            </div>
-        </section>
-        <!--Section: Content-->
-
-        <hr class="my-5" />
-
-        <!--Section: Content-->
-        <section class="text-center">
-            <h4 class="mb-5"><strong>Manuale clasa 6</strong></h4>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-12 mb-4">
-                    <div class="card">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="https://lh3.googleusercontent.com/fife/AMPSemdR-LiN_2S4BjO3XaNMaXbqJiysT18x9i2YDeBfPYVvZX2gRBre-AJuosGBsjX0zqzfjs_5RwASNdYYqgQr4wjWfIPDrayFk8Ini-hhi0BQJAIvzA0RkitHQxhobs1CC6e_FAtECI3aN2jmsL_YEBUL4ta6rGPBW4i5r1jEU5Qt3q1BxOcCYX9TTtnmjTe_yH3oje6qT5WNh2EOHzHVGmnQOA_tUh-CXVD-Z8UZLJtCkFjaHiW1Iid9x5oEv8VigkyOG9E5vioIVFFxgs7VCbq06JcgifjUHfES3VN_P3yOa_TyGxqS2JUU82pxHner3nxIBmIkcrHqeVtp6dhqRKt_VOxvcmsmLkdeGIB_UPA7fPdngKp6H9MZiXs8X8uzS7vnKhK_tAwqX_t2wshj7iSopIgEOR3Cmecrz6YaH8qMCBbQe_feb6fYK_ELtmtd9Q3J8OUq2NqfE5KkwUKXLb4j9JzkwZK-E_WqslgCufwFMYtWSacAKYOs1_wC5MEB0aLC_vT6lVMGFz1QOnr7XHBL8hKcn5tjLK9C8_SY7Dla5DC5LPDZNCHUG7926kKpvx13wIj0X-LuMkrGYDW7slnvGLLzHOsTTnRNXY8QgDsHvv8IqO3AXvPKzOIx7RUTXkhOrQ_ahOaxajPPEN81Kmdob32Q3pKzEG4TSMvUSJc_1LIG6XoQMgiH1InhndOsq3fTJ_mDiBTK3FzLs_f1rGlH_hBRFG5Ob3pzz-wZECyerSIdMvm9oLnVdoz19NgR7dTD6eVqqH4H4N8fm8yxADcsw1L771ii6GnI3Qo-FcF-IHGoiF4bHw8DS8AxdhU_K4NfRwp2Y3zqv51s5f5_zpod5WIPY1T-Iytb_GHyyhduD_T_jGlqAd2YghYYmiHXf_hG2BhwFn-UX08aLjSMA2SmZWCfk5wtfO2zbi-KJFqWEnvB7GvPFQxnWaJ2aPb7nl-br4EKBx0lSnnwiAPf3FP_5_0mbFYaXirVqcdKARH1Gjil3VljU9oyLCltNKvOFOth6DLYmnc5boeAAJKoFFZUKHdRxb5YAjirEQ4fBwPlzBjfx47n5J8BTB2lZ-MsVlXw4ynBFCETIPslqnXtFkiq8hPhbce3EOerW2d-4Waxcsje0tB6Yc9hUzQMQqRe7S6iCBSmgzeEapUuaDQpbELKrqSCpXlilKvUxw7-PKO-J4by7BUT1O_kCinm5RUnYJB951VH8jUXubo0KZ7-q4ER3EnEs27LMns7rrT_D-_PG4rvvZtnYDPfx-VveBbvmeyGHSuj9bjnFCTbdyw9RP2dTWyePjBZFLAsiVQAg0r0gmjpud7PocfgaC51pR6pvmpgclEFZv9csfUYBCi5eMq2ws2F4ccc8oMPoFo9_C90P4XWOW453b9SgNzaxtxvy6rZtYePvoaLjhLyyyCvP41ST0SFMq5gfwj8KK6zDck2MhtNhctJIMTJp5w7DQbhBVzebGZDGCpR2NBQaYGXiQ=w200-h190-p-k-nu" class="pdf img-fluid" />
-                            <a href="https://drive.google.com/file/d/135MPpWBE8295V-KNFiVGAflrtH-1r3b4/view">
-                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                            </a>
+            
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card">
+                                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                        <img src="https://lh3.googleusercontent.com/fife/AMPSemcEC8SqaRLO3BKNh2LBp53TiGWpfxfZQlKgY0Miy_HYgyvM8npcP0GK6uAuw-7Il1BErMHFocjkAA26ng6MIk-Y4jAq8cH6aZPfb_yS_g_gIO3gAXCzZqAH_c2VKjtBPushedQPnepGTM9TFrwgUtE6fpDThZHMCZJ1_eR6DKqMfcY4QBbCCnqg4kO6QPPazXX3mfOrvjf-SKoLrSkIo5HfeDWOZKOQw8VNLhpuZlIEOfF2LpjOAncRFCqgkFV0hNo9Z_HxViYLUHJd5XaoWZbUHOS6Te4rTZIDnYsMdHrMuXqRTxAyEYKTan78b8Ftj4CZbVWoCw1cUFPmcMXrH01V8iwQ-U6_KmzPXehNrsuWf-SrcLdavWaA5uZwAq2cukiYI2oRlsmNqeyeuRotbQToGEsFbVoRTdjEKwWB01fumIHLmej5bvizL5YavIAX37juGrqT3JZB6Rabj7DKZ372ejSlz5vMhUVP2xwsxHQJLNakAkWm5W44lfBc1ReiOjEE5-0WBKmj_nP7agPKoW1L_Y12p73JX_ezo7NzIrSNg2EyXohfd02mXrBlRynMAsHYBSi6v2r2C_5J52y7nuQOzwCP2ZZhEAPCJan8Y8TImmD210lLVpyE6jRGOhu9xewp0oRrAn554Q500Dy7uvZn7i_nUjopOH9ZSC3DEjp3_78FBILaPfZnhRzUVumgPeXNwDvTmPBtU6I4ta7z-imTmuj1oy8azkV47MwK0T9yrJOgg-EWuMOfXr2z6oAIbBEhhMpk_BRcybikgqskIo_wwEasi0ju3Ni_5JNmC1Yt9TUvn9fuJFBZamkPfwupplesrSgY3n_CokwOS9vfsFVT63PrV9O2qigIP9Yt4E_hxlklpjNLQT1Sg6rVT4eXPugkmqfAPGI3jjNn25Hx2qUolN9pC0dZxcEIP58Npqa696_U_NRtdHSdJTd5GTSl8hxAwrWsxdqv-eZCq7fxIt8rr9fDIsRTaYDh7xqDVgYRHD92-RD039UTgxWqMiwWBHNlzsTgVbZgonlJK_rkK9Pw7ztiyxgrTx-sb9SlMkkxqIs8fkGp05KlcvsraMRRT_yT_nQ5CseSwFrh7KgvUKfAiL_a49As8P2nf4-3F4CF01EeiPYUAtpFciMBExaiBBF0AdoJW2PD9CSlDnsOAkBfhykJW9_yZjPxv8C6-fqAneH3wxingqOBl_HtwtnTv09MJl6NI9hqJpD3e2chcpAuvwrqsk_vjY1YO1mMOdPED-Y7cKRG5hsGyYb504KzQ2Z5TZ5lrOK9k4HRCum7RxclQYtP-kqylXbxlFzoDXML-bQHd9_RPhP2KpDTMWrWkxnpBjH42qrc0tCLAbXUqg4M4WH2NAioLs_YY1apvUPEVutejI7C6yl-3UfKSucwFRnHHZbqDklwV0Jll39gfydurLmfVY_jZrA18ii0EQUBlTVmSIiZ0kfkbNNqXWyxb8MiMpYUMYucwYyxyVU=w200-h190-p-k-nu" class="img-fluid" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ed.Didactica si Pedagogica</h5>
+                                        <a href="https://drive.google.com/file/d/1h9p0gyMzADDyjh0G13CU9pasLAT0fQwg/view" class="btn btn-primary">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card">
+                                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                        <img src="https://lh3.googleusercontent.com/fife/AMPSemeWLrMLw2DfjBiByoXbEjq620EEBmoODValF4zvpxLIU-v98T5t24hRUe82V19cPfpMP3gH_fB9KSc6HTA7SHAtKTIB8s-qM1cFBYb8J4jaCUM4rtyNt984tNR8HiIiLmyjHgLIlySsMNWgkqt5nSlrUdMxjmt5Dso-zAO97eZzUOa6IASihfSmN55ShLXKokPBOXcL9dpaFyDv9XWNv7Qy3ySVRHKw0yFAQW5QAx164Jw-RamJOSSi_uxRAub3RKMx4TmJ5Jyy3gW613oI530FPJqiBiArTL2pIY1Uqk9yQ6pveZf_1g7V1wvAZraT6c9KFx7J1RXx7_mp1-MRSgzPtw3yPkkc8JhO3UJ41AjugI--KTsaSbdy7LwYu_npxslsE7w4Nazf7-moaCsy4Ly4CAhLLUvEaM-Kqn43adUzQt09eeXG2WqYo_vK1YwrQFcTqdZHPXPfrgbjO1y-CSx8dpoJB7ZsVxuxXOH3wRMAvIG2rxDVVcrwoeHYPo9Yit2wa95ZqilMKORP_xQT5fkZxQgTzF50wE9Wgl61kv65yJWCZTp6GDwvLU7OQN2RWsNGaA5QIjclJ2DFJQI3JHag5bIIFR_BujGY7hRaMy7tFliWi7vOCJM2aVOvsE9sUkIB31nYNFmZNeuFDs4V-XZ-z4bhpJ0MuynXtZISidg_Gy3qDUMmH7AgW3X_yJJdR-yd9cRmSHJiuMw0EpHZ0lopDp9hcqjBJwP10Bhhe574xadV1ICPJHv-MG3H8S_z0vE3gK5tHYdCc-W-4QLXJapf8hp2q9tUbtVT8pyMHYqRonv_8d1GCiZk5qgzhTJn8GGpvWQh9MUXCRGOfrlw3VEkNJYHhQHRTlMkuFewAPNogV5iEF0IwN7K7F9vzp0Jy7wXWIDWLt2hOaJ8tEP9dRxh4x6ePlMEo5-iENV3QxjTKAiK4fw3161G63CrBL89HoK1JaSJ1FQY2uuC2umMHLaxyphkXjeBfG5Yp9n63KLUR8unGVLt4k0uF2KGc2wlNmJbgs0gX0UerEoY7qqoPMJJ7RzsWBh6YkgNmZGnS11PYtwGmAIP6noM3a0sF0NXzcTFSxfqmRknzWHhRKx_bkaAfqHQfMmudhMjRBLjhsRhzI6IufqcNRxdNbXiMZ2F8ElGTJx9E2FE0X5RR1ftKmP-udOq1LDgdGFHqzAQ8N3GGx8bBod_YfwVeJcl0t-MoI6MvcTj2Ik06mg85MeBhmc3uo2oj8vvjTT7-yPNOakbU4gJDPELZHI85sEkzN5ahl1tqqwJsbhbOStUHkjLCDIxnlZL-6PIVSLyzsCzUl4vqxkVcA-YLF-VXE7M_P0Q_2l8jUiIdDblKMFlYi5ohljO7oWo8bCHhrxrEUzrtkT_9NaXpjSAHacdbhwIntQDzIUzWy4RGLyuwf7s6Ck6UpTXd7HZh6lNZfhSgSF2b5b8XIcJQWNG63pSin4ZKHEPbKlPNbkuTLMf9BHBB8c=w200-h190-p-k-nu" class="img-fluid" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Manual-biologie-2017</h5>
+                                        <a href="https://drive.google.com/file/d/1HAwlYvqoEhBWoFg27VYE8vu-jdxpmYMl/view"  class="btn btn-primary">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card">
+                                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                        <img src="https://drive-thirdparty.googleusercontent.com/128/type/application/pdf" class="img-fluid" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ed.Didactica</h5>
+                                        <a href="https://drive.google.com/file/d/156B2pNdsWUwJ4V_H4JHWCnEMOnYbBT2g/view" class="btn btn-primary">Open</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Organismul uman si sănătatea</h5>
-                            <a href="https://drive.google.com/file/d/135MPpWBE8295V-KNFiVGAflrtH-1r3b4/view" class="btn btn-primary">Open</a>
-                        </div>
-                    </div>
-                </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====== 404 PRODUCT PART ENDS ======-->
 
-                
+	<!--====== FOOTER PART START ======-->
+	<footer class="footer-area">
+		<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+			© 2023 Copyright
+		</div>
+	</footer>
+	<!--====== FOOTER PART ENDS ======-->
 
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="https://lh3.googleusercontent.com/fife/AMPSemcEC8SqaRLO3BKNh2LBp53TiGWpfxfZQlKgY0Miy_HYgyvM8npcP0GK6uAuw-7Il1BErMHFocjkAA26ng6MIk-Y4jAq8cH6aZPfb_yS_g_gIO3gAXCzZqAH_c2VKjtBPushedQPnepGTM9TFrwgUtE6fpDThZHMCZJ1_eR6DKqMfcY4QBbCCnqg4kO6QPPazXX3mfOrvjf-SKoLrSkIo5HfeDWOZKOQw8VNLhpuZlIEOfF2LpjOAncRFCqgkFV0hNo9Z_HxViYLUHJd5XaoWZbUHOS6Te4rTZIDnYsMdHrMuXqRTxAyEYKTan78b8Ftj4CZbVWoCw1cUFPmcMXrH01V8iwQ-U6_KmzPXehNrsuWf-SrcLdavWaA5uZwAq2cukiYI2oRlsmNqeyeuRotbQToGEsFbVoRTdjEKwWB01fumIHLmej5bvizL5YavIAX37juGrqT3JZB6Rabj7DKZ372ejSlz5vMhUVP2xwsxHQJLNakAkWm5W44lfBc1ReiOjEE5-0WBKmj_nP7agPKoW1L_Y12p73JX_ezo7NzIrSNg2EyXohfd02mXrBlRynMAsHYBSi6v2r2C_5J52y7nuQOzwCP2ZZhEAPCJan8Y8TImmD210lLVpyE6jRGOhu9xewp0oRrAn554Q500Dy7uvZn7i_nUjopOH9ZSC3DEjp3_78FBILaPfZnhRzUVumgPeXNwDvTmPBtU6I4ta7z-imTmuj1oy8azkV47MwK0T9yrJOgg-EWuMOfXr2z6oAIbBEhhMpk_BRcybikgqskIo_wwEasi0ju3Ni_5JNmC1Yt9TUvn9fuJFBZamkPfwupplesrSgY3n_CokwOS9vfsFVT63PrV9O2qigIP9Yt4E_hxlklpjNLQT1Sg6rVT4eXPugkmqfAPGI3jjNn25Hx2qUolN9pC0dZxcEIP58Npqa696_U_NRtdHSdJTd5GTSl8hxAwrWsxdqv-eZCq7fxIt8rr9fDIsRTaYDh7xqDVgYRHD92-RD039UTgxWqMiwWBHNlzsTgVbZgonlJK_rkK9Pw7ztiyxgrTx-sb9SlMkkxqIs8fkGp05KlcvsraMRRT_yT_nQ5CseSwFrh7KgvUKfAiL_a49As8P2nf4-3F4CF01EeiPYUAtpFciMBExaiBBF0AdoJW2PD9CSlDnsOAkBfhykJW9_yZjPxv8C6-fqAneH3wxingqOBl_HtwtnTv09MJl6NI9hqJpD3e2chcpAuvwrqsk_vjY1YO1mMOdPED-Y7cKRG5hsGyYb504KzQ2Z5TZ5lrOK9k4HRCum7RxclQYtP-kqylXbxlFzoDXML-bQHd9_RPhP2KpDTMWrWkxnpBjH42qrc0tCLAbXUqg4M4WH2NAioLs_YY1apvUPEVutejI7C6yl-3UfKSucwFRnHHZbqDklwV0Jll39gfydurLmfVY_jZrA18ii0EQUBlTVmSIiZ0kfkbNNqXWyxb8MiMpYUMYucwYyxyVU=w200-h190-p-k-nu" class="img-fluid" />
-                            <a href="#!">
-                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Ed.Didactica si Pedagogica</h5>
-                            <a href="https://drive.google.com/file/d/1h9p0gyMzADDyjh0G13CU9pasLAT0fQwg/view" class="btn btn-primary">Open</a>
-                        </div>
-                    </div>
-                </div>
+	<!--====== BACK TOP TOP PART START ======-->
+	<a href="#" class="back-to-top btn-hover"><i class="lni lni-chevron-up"></i></a>
+	<!--====== BACK TOP TOP PART ENDS ======-->
 
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="https://lh3.googleusercontent.com/fife/AMPSemeWLrMLw2DfjBiByoXbEjq620EEBmoODValF4zvpxLIU-v98T5t24hRUe82V19cPfpMP3gH_fB9KSc6HTA7SHAtKTIB8s-qM1cFBYb8J4jaCUM4rtyNt984tNR8HiIiLmyjHgLIlySsMNWgkqt5nSlrUdMxjmt5Dso-zAO97eZzUOa6IASihfSmN55ShLXKokPBOXcL9dpaFyDv9XWNv7Qy3ySVRHKw0yFAQW5QAx164Jw-RamJOSSi_uxRAub3RKMx4TmJ5Jyy3gW613oI530FPJqiBiArTL2pIY1Uqk9yQ6pveZf_1g7V1wvAZraT6c9KFx7J1RXx7_mp1-MRSgzPtw3yPkkc8JhO3UJ41AjugI--KTsaSbdy7LwYu_npxslsE7w4Nazf7-moaCsy4Ly4CAhLLUvEaM-Kqn43adUzQt09eeXG2WqYo_vK1YwrQFcTqdZHPXPfrgbjO1y-CSx8dpoJB7ZsVxuxXOH3wRMAvIG2rxDVVcrwoeHYPo9Yit2wa95ZqilMKORP_xQT5fkZxQgTzF50wE9Wgl61kv65yJWCZTp6GDwvLU7OQN2RWsNGaA5QIjclJ2DFJQI3JHag5bIIFR_BujGY7hRaMy7tFliWi7vOCJM2aVOvsE9sUkIB31nYNFmZNeuFDs4V-XZ-z4bhpJ0MuynXtZISidg_Gy3qDUMmH7AgW3X_yJJdR-yd9cRmSHJiuMw0EpHZ0lopDp9hcqjBJwP10Bhhe574xadV1ICPJHv-MG3H8S_z0vE3gK5tHYdCc-W-4QLXJapf8hp2q9tUbtVT8pyMHYqRonv_8d1GCiZk5qgzhTJn8GGpvWQh9MUXCRGOfrlw3VEkNJYHhQHRTlMkuFewAPNogV5iEF0IwN7K7F9vzp0Jy7wXWIDWLt2hOaJ8tEP9dRxh4x6ePlMEo5-iENV3QxjTKAiK4fw3161G63CrBL89HoK1JaSJ1FQY2uuC2umMHLaxyphkXjeBfG5Yp9n63KLUR8unGVLt4k0uF2KGc2wlNmJbgs0gX0UerEoY7qqoPMJJ7RzsWBh6YkgNmZGnS11PYtwGmAIP6noM3a0sF0NXzcTFSxfqmRknzWHhRKx_bkaAfqHQfMmudhMjRBLjhsRhzI6IufqcNRxdNbXiMZ2F8ElGTJx9E2FE0X5RR1ftKmP-udOq1LDgdGFHqzAQ8N3GGx8bBod_YfwVeJcl0t-MoI6MvcTj2Ik06mg85MeBhmc3uo2oj8vvjTT7-yPNOakbU4gJDPELZHI85sEkzN5ahl1tqqwJsbhbOStUHkjLCDIxnlZL-6PIVSLyzsCzUl4vqxkVcA-YLF-VXE7M_P0Q_2l8jUiIdDblKMFlYi5ohljO7oWo8bCHhrxrEUzrtkT_9NaXpjSAHacdbhwIntQDzIUzWy4RGLyuwf7s6Ck6UpTXd7HZh6lNZfhSgSF2b5b8XIcJQWNG63pSin4ZKHEPbKlPNbkuTLMf9BHBB8c=w200-h190-p-k-nu" class="img-fluid" />
-                            <a href="#!">
-                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Manual-biologie-2017</h5>
-                            <a href="https://drive.google.com/file/d/1HAwlYvqoEhBWoFg27VYE8vu-jdxpmYMl/view"  class="btn btn-primary">Open</a>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="../../../img/pdf-icon.png" class="img-fluid" />
-                            <a href="#!">
-                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Ed.Didactica</h5>
-                            <a href="https://drive.google.com/file/d/156B2pNdsWUwJ4V_H4JHWCnEMOnYbBT2g/view" class="btn btn-primary">Open</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Section: Content-->
+	<!--====== Bootstrap js ======-->
+	<script src="../../../assets/js/bootstrap.bundle-5.0.0.alpha-min.js"></script>
 
-        <hr class="my-5" />
+	<!--====== Tiny slider js ======-->
+	<script src="../../../assets/js/tiny-slider.js"></script>
 
-        <!--Footer-->
-            <!-- Section: Links  -->
-            <section class="">
-                <div class="container text-center text-md-start mt-5">
-                    <!-- Grid row -->
-                    <div class="row mt-3">
-                        <!-- Grid column -->
-                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                            <!-- Content -->
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                <i class="fas fa-gem me-3 text-primary"></i>Science-Biology
-                            </h6>
-                            
-                        </div>
-                        <!-- Grid column -->
+	<!--====== wow js ======-->
+	<script src="../../../assets/js/wow.min.js"></script>
 
-                        <!-- Grid column -->
-                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                            
-                            <p>
-                                <i class="fas fa-envelope me-3 text-primary"></i>
-                                science.biology001@gmail.com
-                            </p>
-                           
-                        </div>
-                        <!-- Grid column -->
-                    </div>
-                    <!-- Grid row -->
-                </div>
-            </section>
-            <!-- Section: Links  -->
+	<!--====== glightbox js ======-->
+	<script src="../../../assets/js/glightbox.min.js"></script>
 
-            <!-- Copyright -->
-            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-                © 2023 Copyright
-            </div>
-            <!-- Copyright -->
-        </footer>
-        <!-- Footer -->
-        <!-- MDB -->
-        <script type="text/javascript" src="js/mdb.min.js"></script>
-        <!-- Custom scripts -->
-        <script type="text/javascript" src="js/script.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    </div>
+	<!--====== Selectr js ======-->
+	<script src="../../../assets/js/selectr.min.js"></script>
 
-</main>
+	<!--====== Nouislider js ======-->
+	<script src="../../../assets/js/nouislider.js"></script>
+	
+	<!--====== Main js ======-->
+	<script src="../../../assets/js/main.js"></script>
+
 </body>
+
 </html>
